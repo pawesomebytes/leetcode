@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3c02135-c4d9-4876-b619-f7647dc5fe37" name="Changes" comment="N80 Initial commit">
-      <change afterPath="$PROJECT_DIR$/n169/src/main/java/com/pawesomebytes/leetcode/java/N169.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/n169/src/test/java/com/pawesomebytes/leetcode/java/N169Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="e3c02135-c4d9-4876-b619-f7647dc5fe37" name="Changes" comment="N169 Initial commit">
+      <change afterPath="$PROJECT_DIR$/n189/src/main/java/com/pawesomebytes/leetcode/java/N189.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/n189/src/test/java/com/pawesomebytes/leetcode/java/N189Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +80,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Problems",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "vue.rearranger.settings.migration": "true"
@@ -95,7 +94,7 @@
       <recent name="com.pawesomebytes.leetcode.java" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.N169Test">
+  <component name="RunManager" selected="Gradle.N189Test">
     <configuration name="N169Test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -120,6 +119,30 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="N189Test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":n189:test" />
+            <option value="--tests" />
+            <option value="&quot;com.pawesomebytes.leetcode.java.N189Test&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="N26Test.shouldPass" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -134,30 +157,6 @@
             <option value=":n26:test" />
             <option value="--tests" />
             <option value="&quot;com.pawesomebytes.leetcode.java.N26Test.shouldPass&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="N27Test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":n27:test" />
-            <option value="--tests" />
-            <option value="&quot;com.pawesomebytes.leetcode.java.N27Test&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -218,11 +217,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.N189Test" />
         <item itemvalue="Gradle.N169Test" />
         <item itemvalue="Gradle.N80Test.shouldPass" />
         <item itemvalue="Gradle.N80Test" />
         <item itemvalue="Gradle.N26Test.shouldPass" />
-        <item itemvalue="Gradle.N27Test" />
       </list>
     </recent_temporary>
   </component>
@@ -236,7 +235,7 @@
       <updated>1698452691362</updated>
       <workItem from="1698452692372" duration="6126000" />
       <workItem from="1698601822252" duration="1175000" />
-      <workItem from="1698705006125" duration="6678000" />
+      <workItem from="1698705006125" duration="10601000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -286,7 +285,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698708793400</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="N169 Initial commit">
+      <option name="closed" value="true" />
+      <created>1698797548981</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1698797548981</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -309,6 +316,7 @@
     <MESSAGE value="N27 Initial commit" />
     <MESSAGE value="N26 Initial commit" />
     <MESSAGE value="N80 Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="N80 Initial commit" />
+    <MESSAGE value="N169 Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="N169 Initial commit" />
   </component>
 </project>
