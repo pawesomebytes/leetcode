@@ -2,7 +2,7 @@ package com.pawesomebytes.leetcode.java;
 
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
 class N189Test {
     private final N189 systemUnderTest = new N189();
@@ -30,5 +30,4 @@ class N189Test {
 
         assertArrayEquals(expectedNums, nums);
     }
-
 }

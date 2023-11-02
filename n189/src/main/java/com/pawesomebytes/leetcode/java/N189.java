@@ -32,6 +32,19 @@ public class N189 {
     public void rotate3(int[] nums, int k) {
         int shift = k % nums.length;
 
+        flip(nums, 0, nums.length - 1);
+        flip(nums, 0, shift - 1);
+        flip(nums, shift, nums.length - 1);
 
+    }
+
+    private void flip(int[] arr, int start, int end) {
+        while (start < end) {
+            int temp = arr[start];
+            arr[start] = arr[end];
+            arr[end] = temp;
+            start++;
+            end--;
+        }
     }
 }
