@@ -2,11 +2,16 @@ package com.pawesomebytes.leetcode.java;
 
 public class N55 {
     public boolean canJump(int[] nums) {
-        int reachable = 0;
-        for(int i = 0; i < nums.length; i ++) {
-            if(i > reachable) return false;
-            reachable = Math.max(reachable, i + nums[i]);
+        int reachableIndex = 0;
+
+        for (int i = 0; i < nums.length - 1; i++) {
+            if (i > reachableIndex) {
+                break;
+            }
+
+            reachableIndex = Math.max(reachableIndex, i + nums[i]);
         }
-        return true;
+
+        return reachableIndex >= nums.length - 1;
     }
 }
