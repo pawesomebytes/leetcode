@@ -2,20 +2,17 @@ package com.pawesomebytes.leetcode.java;
 
 public class N45 {
     public int jump(int[] nums) {
-        int i = nums.length - 1;
         int steps = 0;
+        int currentMaxReachableIndex = 0;
+        int currentEndIndex = 0;
 
-        while (i > 0) {
-            int maxJumpIndex = 0;
+        for (int i = 0; i < nums.length - 1; i++) {
+            currentMaxReachableIndex = Math.max(currentMaxReachableIndex, nums[i] + i);
 
-            for (int j = i - 1; j >= 0; j--) {
-                if (j + nums[j] >= i) {
-                    maxJumpIndex = j;
-                }
+            if (i == currentEndIndex) {
+                steps++;
+                currentEndIndex = currentMaxReachableIndex;
             }
-
-            i = maxJumpIndex;
-            steps++;
         }
 
         return steps;
