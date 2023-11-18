@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3c02135-c4d9-4876-b619-f7647dc5fe37" name="Changes" comment="N189 Initial commit">
-      <change beforePath="$PROJECT_DIR$/n189/src/main/java/com/pawesomebytes/leetcode/java/N189.java" beforeDir="false" afterPath="$PROJECT_DIR$/n189/src/main/java/com/pawesomebytes/leetcode/java/N189.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/n189/src/test/java/com/pawesomebytes/leetcode/java/N189Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/n189/src/test/java/com/pawesomebytes/leetcode/java/N189Test.java" afterDir="false" />
+    <list default="true" id="e3c02135-c4d9-4876-b619-f7647dc5fe37" name="Changes" comment="N380 Initial commit, all operations O(1) in most cases">
+      <change afterPath="$PROJECT_DIR$/n238/src/main/java/com/pawesomebytes/leetcode/java/N238.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/n238/src/test/java/com/pawesomebytes/leetcode/java/N238Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/n380/src/main/java/com/pawesomebytes/leetcode/java/N380.java" beforeDir="false" afterPath="$PROJECT_DIR$/n380/src/main/java/com/pawesomebytes/leetcode/java/N380.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,28 +67,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_directory_selection": "C:/projects/leetcode/n88/src/test/java/com/pawesomebytes/leetcode/java",
-    "last_opened_file_path": "C:/projects/leetcode",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/projects/leetcode/n88/src/test/java/com/pawesomebytes/leetcode/java&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/projects/leetcode&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -93,8 +97,8 @@
       <recent name="com.pawesomebytes.leetcode.java" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.N189Test">
-    <configuration name="N169Test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.N238Test">
+    <configuration name="N238Test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -105,9 +109,9 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value=":n169:test" />
+            <option value=":n238:test" />
             <option value="--tests" />
-            <option value="&quot;com.pawesomebytes.leetcode.java.N169Test&quot;" />
+            <option value="&quot;com.pawesomebytes.leetcode.java.N238Test&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -118,7 +122,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="N189Test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="N274Test.shouldPass" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -129,9 +133,9 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value=":n189:test" />
+            <option value=":n274:test" />
             <option value="--tests" />
-            <option value="&quot;com.pawesomebytes.leetcode.java.N189Test&quot;" />
+            <option value="&quot;com.pawesomebytes.leetcode.java.N274Test.shouldPass&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -142,7 +146,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="N26Test.shouldPass" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="N45Test.shouldPass" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -153,9 +157,9 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value=":n26:test" />
+            <option value=":n45:test" />
             <option value="--tests" />
-            <option value="&quot;com.pawesomebytes.leetcode.java.N26Test.shouldPass&quot;" />
+            <option value="&quot;com.pawesomebytes.leetcode.java.N45Test.shouldPass&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -166,7 +170,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="N80Test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="N55Test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -177,9 +181,9 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value=":n80:test" />
+            <option value=":n55:test" />
             <option value="--tests" />
-            <option value="&quot;com.pawesomebytes.leetcode.java.N80Test&quot;" />
+            <option value="&quot;com.pawesomebytes.leetcode.java.N55Test&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -190,7 +194,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="N80Test.shouldPass" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="N55Test.shouldPass" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -201,9 +205,9 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value=":n80:test" />
+            <option value=":n55:test" />
             <option value="--tests" />
-            <option value="&quot;com.pawesomebytes.leetcode.java.N80Test.shouldPass&quot;" />
+            <option value="&quot;com.pawesomebytes.leetcode.java.N55Test.shouldPass&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -216,11 +220,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.N189Test" />
-        <item itemvalue="Gradle.N169Test" />
-        <item itemvalue="Gradle.N80Test.shouldPass" />
-        <item itemvalue="Gradle.N80Test" />
-        <item itemvalue="Gradle.N26Test.shouldPass" />
+        <item itemvalue="Gradle.N238Test" />
+        <item itemvalue="Gradle.N274Test.shouldPass" />
+        <item itemvalue="Gradle.N45Test.shouldPass" />
+        <item itemvalue="Gradle.N55Test.shouldPass" />
+        <item itemvalue="Gradle.N55Test" />
       </list>
     </recent_temporary>
   </component>
@@ -234,7 +238,10 @@
       <updated>1698452691362</updated>
       <workItem from="1698452692372" duration="6126000" />
       <workItem from="1698601822252" duration="1175000" />
-      <workItem from="1698705006125" duration="11484000" />
+      <workItem from="1698705006125" duration="19929000" />
+      <workItem from="1699387866507" duration="7374000" />
+      <workItem from="1699553932607" duration="11980000" />
+      <workItem from="1700258135726" duration="3652000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -300,7 +307,71 @@
       <option name="project" value="LOCAL" />
       <updated>1698881482326</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="N189 Add 3rd approach - most interesting one, uses flipping: whole array, after that part before k, after that part after k.">
+      <option name="closed" value="true" />
+      <created>1698965603640</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1698965603640</updated>
+    </task>
+    <task id="LOCAL-00010" summary="N121 Initial commit">
+      <option name="closed" value="true" />
+      <created>1699037888776</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1699037888776</updated>
+    </task>
+    <task id="LOCAL-00011" summary="N55 Initial commit">
+      <option name="closed" value="true" />
+      <created>1699390630733</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1699390630733</updated>
+    </task>
+    <task id="LOCAL-00012" summary="N55 As I understand it">
+      <option name="closed" value="true" />
+      <created>1699472781428</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1699472781428</updated>
+    </task>
+    <task id="LOCAL-00013" summary="N45 Initial commit">
+      <option name="closed" value="true" />
+      <created>1699477681937</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1699477681937</updated>
+    </task>
+    <task id="LOCAL-00014" summary="N45 O(n) approach">
+      <option name="closed" value="true" />
+      <created>1699555056162</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1699555056162</updated>
+    </task>
+    <task id="LOCAL-00015" summary="N274 Initial commit">
+      <option name="closed" value="true" />
+      <created>1699561673012</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1699561673012</updated>
+    </task>
+    <task id="LOCAL-00016" summary="N380 Initial commit, all operations O(1) in most cases">
+      <option name="closed" value="true" />
+      <created>1699745207630</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1699745207630</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -325,6 +396,30 @@
     <MESSAGE value="N80 Initial commit" />
     <MESSAGE value="N169 Initial commit" />
     <MESSAGE value="N189 Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="N189 Initial commit" />
+    <MESSAGE value="N189 Add 3rd approach - most interesting one, uses flipping: whole array, after that part before k, after that part after k." />
+    <MESSAGE value="N121 Initial commit" />
+    <MESSAGE value="N55 Initial commit" />
+    <MESSAGE value="N55 As I understand it" />
+    <MESSAGE value="N45 Initial commit" />
+    <MESSAGE value="N45 O(n) approach" />
+    <MESSAGE value="N274 Initial commit" />
+    <MESSAGE value="N380 Initial commit, all operations O(1) in most cases" />
+    <option name="LAST_COMMIT_MESSAGE" value="N380 Initial commit, all operations O(1) in most cases" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/n121/src/main/java/com/pawesomebytes/leetcode/java/N121.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/n238/src/main/java/com/pawesomebytes/leetcode/java/N238.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
